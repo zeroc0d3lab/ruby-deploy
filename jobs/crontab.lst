@@ -1,0 +1,5 @@
+# Every 30 minutes
+*/30 * * * *  /bin/sh /home/docker/apps/current/jobs/crontab_halfhours.sh
+
+# Every hours
+0 * * * *  /bin/sh /home/docker/apps/current/jobs/crontab_hours.sh

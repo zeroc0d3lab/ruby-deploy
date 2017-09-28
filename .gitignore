@@ -1,0 +1,4 @@
+.env
+/log/*
+config/database.yml
+config/mongoid.yml

@@ -1,0 +1,37 @@
+development:
+  clients:
+    default:
+      database: db_name
+      hosts:
+        - localhost:27017
+      options:
+  options:
+
+test:
+  clients:
+    default:
+      database: db_name
+      hosts:
+        - localhost:27017
+      options:
+        read:
+          mode: :primary
+        max_pool_size: 1
+
+staging:
+  clients:
+    default:
+      database: db_name
+      hosts:
+        - localhost:27017
+      options:
+  options:
+
+production:
+  clients:
+    default:
+      database: db_name
+      hosts:
+        - localhost:27017
+      options:
+  options:
